@@ -1,6 +1,7 @@
 html,
 body {
   background-color: black;
-  color:lightgreen;
+  color: lightgreen;
   font-family: monospace;
+  font-size: 1em;
 }

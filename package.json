@@ -22,13 +22,18 @@
   },
   "homepage": "https://github.com/sombriks/we-might-want-to-build-a-demo#readme",
   "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
     "browserify": "^16.2.2",
     "browserify-css": "^0.14.0",
-    "budo": "^11.3.2"
+    "budo": "^11.3.2",
+    "vueify": "^9.4.1"
   },
   "browserify": {
     "transform": [
-      "browserify-css"
+      "browserify-css",
+      "vueify"
     ]
   }
 }
