@@ -112,7 +112,7 @@ module.exports={
 }
 
 },{}],3:[function(require,module,exports){
-var css = "html,\nbody {\n  background-color: black;\n  font-family: monospace;\n}\n"; (require("browserify-css").createStyle(css, { "href": "src/main.css" }, { "insertAt": "bottom" })); module.exports = css;
+var css = "html,\nbody {\n  background-color: black;\n  color: lightgreen;\n  font-family: monospace;\n}\n"; (require("browserify-css").createStyle(css, { "href": "src/main.css" }, { "insertAt": "bottom" })); module.exports = css;
 },{"browserify-css":1}],4:[function(require,module,exports){
 require("./main.css");
 
