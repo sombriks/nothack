@@ -1,9 +1,7 @@
 <template>
-  <pre id="control">Status: noite escura
-Herói: dan the man
-Arquetipo: mutante paladino caçador
-
-    </pre>
+  <div id="control">
+    Status: noite escura <br/> Herói: dan the man <br/> Arquetipo: mutante paladino caçador
+  </div>
 </template>
 
 <script>
