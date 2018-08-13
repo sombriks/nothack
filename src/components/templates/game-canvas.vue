@@ -1,9 +1,9 @@
 <template>
-  <div id="game" v-html="map"></div>
+  <div id="camera" v-html="map"></div>
 </template>
 
 <script>
-const mapdata = require("./static-maps/world1")
+const mapdata = require("../static-maps/world1")
 module.exports = {
   name: "GameCanvas",
   data: _ => ({ map: "", localplayer: "@" }),
@@ -14,9 +14,10 @@ module.exports = {
 </script>
 
 <style scoped>
-#game {
+#camera {
   border: 1px solid lightgreen;
   width: 40em;
   height: 40em;
+  overflow:hidden;
 }
 </style>

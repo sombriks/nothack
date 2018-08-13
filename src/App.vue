@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="game">
     <game-canvas></game-canvas>
     <hud-bar></hud-bar>
   </div>
@@ -12,7 +12,7 @@ module.exports = {
 </script>
 
 <style scoped>
-#app {
+#game {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
