@@ -1,5 +1,5 @@
 {
-  "name": "we-might-want-to-build-a-demo",
+  "name": "nothack",
   "version": "0.1.0",
   "description": "what about [NetHack](https://www.nethack.org/)?",
   "main": "index.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sombriks/we-might-want-to-build-a-demo.git"
+    "url": "git+https://github.com/sombriks/nothack.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sombriks/we-might-want-to-build-a-demo/issues"
+    "url": "https://github.com/sombriks/nothack/issues"
   },
-  "homepage": "https://github.com/sombriks/we-might-want-to-build-a-demo#readme",
+  "homepage": "https://github.com/sombriks/nothack#readme",
   "dependencies": {
     "dexie": "^2.0.4",
     "uuid": "^3.3.2"
