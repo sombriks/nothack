@@ -1,4 +1,4 @@
-# we-might-want-to-build-a-demo
+# This is not NetHack
 
-what about [NetHack](https://www.nethack.org/)?
+[NetHack](https://www.nethack.org/), you know?
 

@@ -1,18 +1,15 @@
-//
-require("./main.css");
-//
+// start me up
 console.log(`This is NotHack version ${require("../package.json").version}`);
-//
-const Vue = require("vue");
-Vue.use(require("vuex"));
+// css
+require("./main.css");
+// the thing
+const renderthings = require("./renderthings");
+// our canvas
+const app = document.getElementById("app");
+// maps to use on debug time. well generate them, remember?
+const map1 = require("./static-maps/world1.txt");
+const map2 = require("./static-maps/world2.txt");
 
-Vue.component("game-canvas", require("./components/templates/game-canvas.vue"));
-Vue.component("hud-bar", require("./components/templates/hud-bar.vue"));
+const pos = { x: 0, y: 0 }
 
-const { store } = require("./components/state");
-
-window.nothackvm = new Vue({
-  el: "#app",
-
-  render: r => r(require("./App.vue"))
-});
+renderthings.camera(app, map1, pos);
