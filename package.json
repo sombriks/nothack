@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "make dev",
-    "dist": "make dist"
+    "dist": "make dist",
+    "build": "make dist"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/sombriks/nothack#readme",
   "dependencies": {
     "dexie": "^2.0.4",
+    "phaser": "^3.11.0",
     "uuid": "^3.3.2"
   },
   "devDependencies": {

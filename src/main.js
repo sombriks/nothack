@@ -2,14 +2,37 @@
 console.log(`This is NotHack version ${require("../package.json").version}`);
 // css
 require("./main.css");
-// the thing
-const renderthings = require("./renderthings");
-// our canvas
-const app = document.getElementById("app");
-// maps to use on debug time. well generate them, remember?
-const map1 = require("./static-maps/world1.txt");
-const map2 = require("./static-maps/world2.txt");
+//
+const { db } = require("./state");
+//
+const Phaser = require("phaser");
+//
+const measue = _ => {
+  let w = window.innerWidth;
+  let h = window.innerHeight;
+  let l = w < h ? w : h;
+  return l;
+};
 
-const pos = { x: 0, y: 0 }
+let l = measue();
+window.game = new Phaser.Game({
+  canvas: document.getElementById("nothack"),
+  type: Phaser.AUTO,
+  width: l,
+  height: l,
+  physics: {
+    default: "arcade",
+    arcade: {
+      gravity: { y: 200 }
+    }
+  },
+  scene: {
+    preload() {},
+    create() {}
+  }
+});
 
-renderthings.camera(app, map1, pos);
+window.addEventListener("resize", () => {
+  let l = measue();
+  window.game.resize(l, l);
+});
