@@ -1,0 +1,23 @@
+
+body {
+
+  color: white;
+  background-color: black;
+
+  margin: 0px 0px 0px 0px;
+  
+  font-family: monospace;
+  font-size: xx-large;
+  
+  overflow: hidden;
+  
+  pre {
+    display: block;
+    white-space: pre;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid white;
+    width: 33em;
+    height: 22em;
+    overflow: hidden;
+  }
+}
