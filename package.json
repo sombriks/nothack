@@ -1,15 +1,9 @@
 {
   "name": "nothack",
   "version": "0.1.0",
-  "description": "what about [NetHack](https://www.nethack.org/)?",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "description": "This is not [NetHack](https://www.nethack.org/)?",
   "scripts": {
-    "dev": "make dev",
-    "dist": "make dist",
-    "build": "make dist"
+
   },
   "repository": {
     "type": "git",
@@ -23,20 +17,9 @@
   },
   "homepage": "https://github.com/sombriks/nothack#readme",
   "dependencies": {
-    "dexie": "^2.0.4",
-    "phaser": "^3.11.0",
-    "uuid": "^3.3.2"
+
   },
   "devDependencies": {
-    "browserify": "^16.2.2",
-    "browserify-css": "^0.14.0",
-    "budo": "^11.3.2",
-    "stringify": "^5.2.0"
-  },
-  "browserify": {
-    "transform": [
-      "browserify-css",
-      "stringify"
-    ]
+
   }
 }
