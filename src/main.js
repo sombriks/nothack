@@ -21,6 +21,10 @@ document.addEventListener("keydown", e => {
   }
 })
 
+document.addEventListener("click", e => {
+  console.log(e)
+})
+
 const paint = _ => {
   const mapa = stage1()
   const pre = document.getElementById("game")

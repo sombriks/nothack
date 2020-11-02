@@ -15,7 +15,7 @@ export default {
     }),
     copy({
       targets: [
-        { src: "public/*", dest: "docs" }
+        { src: "public/**", dest: "docs" }
       ]
     }),
     livereload(),
